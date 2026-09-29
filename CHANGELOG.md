@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [1.1.1] - 2026-09-29
+
+### Added
+
+- **Automated CI/CD Workflow**: Added GitHub Actions workflow to automatically compile and release Windows installer binaries on published releases and main pushes.
+
+### Changed
+
+- **Author and Metadata**: Updated author and company metadata to `yosifdheef313` across the application, installer, and build scripts.
+- **Ecosystem Links**: Renamed legacy LiteLDev references to LeviMC and updated broken links across the About page to active resources.
+- **Changelog Standards**: Formatted changelog structure to adhere to the Keep a Changelog standard.
+
 ## [1.1.0] - 2026-09-28
 
 This update focuses on making the addon store much more reliable, fixing search issues, preventing download failures, and making the download experience smoother.
@@ -39,6 +51,7 @@ The first public release of LeviLamina Server Manager!
 - Windows Job Object integration to keep child server processes tied to the manager and prevent orphaned background tasks.
 - Multilingual support including English and Arabic.
 
-[Unreleased]: https://github.com/yosifdheef313/LeviLamina_Server_Manager/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/yosifdheef313/LeviLamina_Server_Manager/compare/v1.1.1...HEAD
+[1.1.1]: https://github.com/yosifdheef313/LeviLamina_Server_Manager/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/yosifdheef313/LeviLamina_Server_Manager/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/yosifdheef313/LeviLamina_Server_Manager/releases/tag/v1.0.0
