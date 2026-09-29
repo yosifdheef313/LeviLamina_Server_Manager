@@ -1,4 +1,4 @@
-// Package lip provides a programmatic interface to LiteLDev's official 'lip'
+// Package lip provides a programmatic interface to LeviMC's official 'lip'
 // package manager for LeviLamina mod and plugin distribution.
 package lip
 
@@ -332,4 +332,3 @@ func resolveLipDownloadURL() string {
 	}
 	return "https://github.com/futrime/lip/releases/download/v0.34.8/lip-0.34.8-win-x64.zip"
 }
-

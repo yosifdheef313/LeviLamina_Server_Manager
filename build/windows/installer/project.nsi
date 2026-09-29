@@ -15,10 +15,10 @@ ManifestDPIAware true
 ## > makensis -DARG_WAILS_AMD64_BINARY=..\..\bin\app.exe
 ####
 !define INFO_PROJECTNAME    "LeviLaminaServerManager"
-!define INFO_COMPANYNAME    "LiteLDev"
+!define INFO_COMPANYNAME    "yosifdheef313"
 !define INFO_PRODUCTNAME    "LeviLamina Server Manager"
 !define INFO_PRODUCTVERSION "1.1.0"
-!define INFO_COPYRIGHT      "Copyright 2026 LeviLamina Community"
+!define INFO_COPYRIGHT      "Copyright 2026 yosifdheef313"
 !define PRODUCT_EXECUTABLE  "LeviLaminaServerManager.exe"
 !define UNINST_KEY_NAME     "LeviLaminaServerManager"
 !define REQUEST_EXECUTION_LEVEL "admin"

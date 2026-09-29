@@ -1,6 +1,6 @@
 // Package backend implements the core application engine for LeviLamina Server Manager.
 // It bridges the Wails v2 frontend runtime with low-level Windows process supervision,
-// RakNet engine telemetry, Bedrock addons, and the official LiteLDev 'lip' package manager.
+// RakNet engine telemetry, Bedrock addons, and the official LeviMC 'lip' package manager.
 package backend
 
 import (
@@ -42,28 +42,28 @@ import (
 // App is the central application controller exposed to the Wails JavaScript frontend.
 // It coordinates server profiles, process supervision, addons, backups, and metrics.
 type App struct {
-	ctx           context.Context
-	db            *database.Database
-	serverMgr     *server.ServerManager
-	supervisor    *process.ProcessSupervisor
-	monitor       *process.ProcessMonitor
-	playerMgr     *players.PlayerManager
-	modMgr        *mods.ModManager
-	addonMgr      *addons.AddonManager
-	addonAnalyzer *addons.AddonAnalyzer
-	addonInstall  *addons.AddonInstaller
-	worldMgr      *worlds.WorldManager
-	backupMgr     *backups.BackupManager
-	compatEngine  *compatibility.CompatibilityEngine
-	lipClient     *lip.LipClient
-	llMgr         *levilamina.LeviLaminaManager
-	setupEngine   *server.ServerSetupEngine
-	bedrinthClient *bedrinth.BedrinthClient
-	updateEngine  *updates.UpdateCheckerEngine
-	xboxMgr       *xbox.XboxManager
-	extMgr        *extensions.ExtensionManager
+	ctx             context.Context
+	db              *database.Database
+	serverMgr       *server.ServerManager
+	supervisor      *process.ProcessSupervisor
+	monitor         *process.ProcessMonitor
+	playerMgr       *players.PlayerManager
+	modMgr          *mods.ModManager
+	addonMgr        *addons.AddonManager
+	addonAnalyzer   *addons.AddonAnalyzer
+	addonInstall    *addons.AddonInstaller
+	worldMgr        *worlds.WorldManager
+	backupMgr       *backups.BackupManager
+	compatEngine    *compatibility.CompatibilityEngine
+	lipClient       *lip.LipClient
+	llMgr           *levilamina.LeviLaminaManager
+	setupEngine     *server.ServerSetupEngine
+	bedrinthClient  *bedrinth.BedrinthClient
+	updateEngine    *updates.UpdateCheckerEngine
+	xboxMgr         *xbox.XboxManager
+	extMgr          *extensions.ExtensionManager
 	preflightEngine *server.PreflightEngine
-	activityLogger *activity.ActivityLogger
+	activityLogger  *activity.ActivityLogger
 }
 
 func NewApp() (*App, error) {
@@ -1507,7 +1507,6 @@ func (a *App) WipeEverything(deleteServerFolders bool) error {
 	return nil
 }
 
-
 // ----------------- Windows Platform Utilities -----------------
 
 // EnableLoopbackExemption enables Minecraft Bedrock UWP client to connect to localhost / 127.0.0.1 on the same PC
@@ -1893,6 +1892,3 @@ func (a *App) InstallMCPEDLItemLive(serverID, slug, downloadURL, fileName string
 	}
 	return nil
 }
-
-
-

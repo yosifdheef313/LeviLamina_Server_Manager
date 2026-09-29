@@ -3,7 +3,7 @@ setlocal enabledelayedexpansion
 
 echo =======================================================
 echo    LeviLamina Server Manager - Build Script
-echo    Maintained by LiteLDev Team
+echo    Maintained by yosifdheef313
 echo =======================================================
 echo.
 

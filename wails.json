@@ -7,7 +7,6 @@
   "frontend:dev:watcher": "npm run dev",
   "frontend:dev:serverUrl": "auto",
   "author": {
-    "name": "LeviLamina Community",
-    "email": "dev@levimc.org"
+    "name": "yosifdheef313"
   }
 }

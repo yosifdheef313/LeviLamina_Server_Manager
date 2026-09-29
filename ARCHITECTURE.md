@@ -87,7 +87,7 @@ Before installing any `.mcpack`, `.mcaddon`, or `.zip` archive:
    - Safely reads, modifies, and writes `world_behavior_packs.json` and `world_resource_packs.json` in the targeted world folder, maintaining deterministic pack ordering.
 
 ### `lip` Package Manager Integration (`backend/lip/`)
-- Interfaces directly with LiteLDev's official `lip` command-line package manager.
+- Interfaces directly with LeviMC's official `lip` command-line package manager.
 - Executes `lip install`, `lip list`, `lip update`, and `lip search` in non-interactive modes, parsing structured JSON outputs.
 
 ---

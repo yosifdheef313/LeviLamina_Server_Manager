@@ -14,7 +14,7 @@ We are committed to providing a welcoming, inclusive, and harassment-free enviro
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/LiteLDev/LeviLaminaServerManager.git
+   git clone https://github.com/yosifdheef313/LeviLaminaServerManager.git
    cd LeviLaminaServerManager
    ```
 

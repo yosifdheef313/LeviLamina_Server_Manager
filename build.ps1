@@ -24,7 +24,7 @@ $ErrorActionPreference = 'Stop'
 
 Write-Host "=======================================================" -ForegroundColor Cyan
 Write-Host "   LeviLamina Server Manager - PowerShell Builder" -ForegroundColor Cyan
-Write-Host "   Maintained by LiteLDev Team" -ForegroundColor Cyan
+Write-Host "   Maintained by yosifdheef313" -ForegroundColor Cyan
 Write-Host "=======================================================" -ForegroundColor Cyan
 Write-Host ""
 
